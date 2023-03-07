@@ -1,0 +1,245 @@
+html, body, main, footer{
+    
+   
+    background-color:#020c1b;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.container {
+    margin-right: none;
+}
+
+
+.content-h2 {
+    display: flex;
+    color: #64ffda;
+    background-color: #020c1b;
+
+}
+
+.content-h1 { 
+    /* padding-top: 6% ; */
+    /* padding-bottom: 154%; */
+    /* padding-right: 10%;   */
+    background-color: #020c1b;
+    color: #ffffff;  /* #495670*/
+}
+
+
+
+.presentation{
+    padding-top: 10%;
+    background-color: #020c1b;
+}
+
+.sub-title{
+    font-size: 3rem;
+}
+
+.nav-option {
+    justify-content: end;
+    padding-top: 4%;
+    font-size: 1.5rem;
+}
+
+.logo{
+    max-width: 6em;
+}
+
+.font-h2{
+    font-size: 3rem;
+}
+
+.font-h1{
+    font-size: 6rem;
+}
+
+.descripcion-principal {
+    
+    background-color: #020c1b;
+    color: #495670;
+}
+
+
+.parrafodescripcion {
+    font-size: 2rem;
+    
+}
+
+.bg-descripcion {
+    background-color: #020c1b;
+}
+
+.boton {
+    margin-top: 24%;
+    margin-left: 25%;
+    /* background-color: #64ffda; */
+    border-radius: 10px;
+}
+
+.detail-text{
+    color: #64ffda;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    margin-left: 5% ;
+    padding: 0px;
+    list-style: none;
+    margin-right: 20%;
+    position: fixed;
+    color: aliceblue;
+    vertical-align: baseline;
+    z-index: 10;
+    bottom: 0px;
+}
+
+.icono-redsocial {
+    margin-bottom: 60%;
+}
+
+
+.section-acercade, .experiencia, .proyectos, .seccioncontacto { 
+    margin-top: 18%;
+    
+}
+
+.titulosection{
+    color: #ffffff;
+    font-size: 2.5em;
+}
+
+.parrafos{
+    font-size: 1.7em;
+    margin-right: 5%;
+    color: #495670;
+    margin-top: 10%;
+}
+
+.fotoacercade{
+    max-width: 90%;
+    margin-top: 35%;
+    
+}
+
+.experiencia, .titulosection {
+    margin-bottom: 10%;
+}
+
+.lista1{
+    margin-top: 22%;
+    font-size: 1.7em;
+    
+
+}
+
+.carousel1{
+    margin-bottom: 10%;
+    
+}
+
+.parrafo-contac{
+    font-size: 1.7em;
+    color: #495670;
+}
+
+#titulocoloralaetorio{
+    background-color: #014737;
+    color: #080808;
+}
+
+#reset {
+    margin-top: 6%;
+    background-color: #64ffda;
+}
+
+#generate {
+    background-color: #64ffda;
+    margin-top: 6%;
+}
+
+.color-hex {
+    font-size: 1.3em;
+    color: #ffffff;
+    background-color: #014737;
+}
+
+.btn2 {
+    background-color: #64ffda;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.text-contacto{
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.footer {
+    align-items: center;
+}
+.finfooter{
+    text-align: center;
+    font-size: 1.5em;
+    
+}
+
+
+
+@media screen and (max-width: 576px){
+    .logo{
+        max-width: 3em;
+    }
+    .opc-nav{
+        font-size: small;
+    }
+    .font-h1{
+        font-size: 2em;
+    }
+    .font-h2{
+        font-size: 1em;
+    }
+    .parrafodescripcion, .parrafos, #titulocoloralaetorio, #reset, #generate,.color-hex {
+        font-size: 1em;
+        
+    }
+
+    .social-media{
+       display: flex;
+       -webkit-box-align: center;
+       padding: 0;
+       list-style: none;
+       vertical-align: baseline;
+       align-items: flex-start;
+       flex-direction: row;
+       position: inherit;
+    }
+    .icono-redsocial{
+        padding: 5%;
+    }
+    .lista1{
+        font-size: 0.8em;
+    }
+    .parrafos{
+        font-size: 0.9em;
+    }
+    .fotoacercade{
+       box-sizing: content-box;
+       max-width: 100%; 
+    }
+    .text-contacto{
+        font-size: 0.7em;
+    }
+}
+
